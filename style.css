@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(5, 81, 148);
+}
+button{
+    background: tomato;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+
+}
+/*header start*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+}
+header nav a{
+    text-decoration: none;
+    background: aqua;
+    color: rgb(2, 90, 93);
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all .5s linear;
+    
+}
+header nav a:hover{
+    text-decoration: none;
+    background: rgb(2, 76, 76);
+    color: aliceblue;
+    padding: 8px 16px;
+    border-radius: 8px;
+    
+}
+header h2{
+   font-size: 24px;
+    font-family: 'Cormorant', serif;
+    text-decoration: none;
+    
+    color: rgb(249, 251, 251);
+    padding: 4px 8px;
+    border-radius: 8px;
+
+}
+header h2 span{
+    color: tomato;
+}
+/*header end*/
+
+/*banner section start*/
+.banner-section{
+    background-image: url("/image/nabilk.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px; 
+    color: rgb(12, 169, 200);
+    
+    font-family: 'Cormorant', serif;
+    text-decoration: none;
+   
+
+}
+.banner-section h1{
+    color: aliceblue;
+    background: tomato;
+}
+.banner-section h1 span.De{
+    color: rgba(22, 108, 229, 0.878);
+    background: rgb(233, 207, 8);
+}
+.banner-section h1 span{
+    color: rgb(233, 207, 8);
+    background: rgba(38, 228, 242, 0.878);
+}
+
+.banner-section h1 span.da{
+    color: rgba(38, 228, 242, 0.878);
+    background: rgba(22, 108, 229, 0.878);
+}
+h2{
+    text-align: center;
+    color: aqua;
+    font-size: 50px;
+}
+h2 span{
+    color: rgb(236, 225, 15);
+    
+}
+.khan{
+    display: flex;
+    padding: 16px 64px;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.send img {
+  
+    width: 100%;
+
+}
+.send{
+    width: 300px;
+    box-shadow: 5px 3px 5px gray;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+}
+.send:hover{
+    box-shadow: 8px 5px 5px gray;
+}
+.send h3,
+.send p{
+    margin: 0 8px;
+    font-size: 12px;
+
+}
+.send .nabil{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+/*banner section end*/
+
+/*footer start */
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.footer-top{
+    background: rgb(92, 3, 3);
+    padding: 0 16px;
+}
+.footer-top input{
+    font-size: 20px;
+    padding: 8px;
+    width: 55%;
+}
+.footer-top ul{
+    list-style: none;
+}
+.footer-top ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(12, 235, 255);
+    padding: 8px;
+}
+.footer-bottom{
+    padding: 8px;
+    font-size: 22px;
+    text-align: center;
+    background: rgb(8, 189, 249);
+    color: white;
+}
+.search-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/*footer end*/
